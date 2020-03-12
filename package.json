@@ -1,0 +1,29 @@
+{
+  "name": "gitcommitizentest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimi009/gitCommitizenTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimi009/gitCommitizenTest/issues"
+  },
+  "homepage": "https://github.com/kimi009/gitCommitizenTest#readme",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "conventional-changelog": "^3.1.18",
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "config": {
+    "commitizen":{
+      "path":"./node_modules/cz-conventional-changelog"
+    }
+  }
+}
